@@ -18,4 +18,19 @@ const getSensorsOrigen = (req, res) => {
     controller.getSensorsOrigen(res)
 }
 
-module.exports = {getSms, getSensorData, getSensorsOrigen}
+const names = [
+    {
+        name:"getSms",
+        method:"post"
+    }, 
+    {
+        name:"getSensorData",
+        method:"get"
+    },
+    {
+        name:"getSensorsOrigen",
+        method:"get",
+    }
+]
+
+module.exports = {getSms, getSensorData, getSensorsOrigen, names}
