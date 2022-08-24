@@ -1,7 +1,7 @@
 const indexServices = [
     {
         method:"get",
-        service:"getSensorData"
+        service:"getSensorData",
     },
     {
         method:"post",
